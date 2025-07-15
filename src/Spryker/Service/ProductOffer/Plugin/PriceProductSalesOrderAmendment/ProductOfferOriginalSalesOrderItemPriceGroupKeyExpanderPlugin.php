@@ -5,16 +5,16 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Service\ProductOffer\Plugin\SalesOrderAmendment;
+namespace Spryker\Service\ProductOffer\Plugin\PriceProductSalesOrderAmendment;
 
 use Generated\Shared\Transfer\ItemTransfer;
 use Spryker\Service\Kernel\AbstractPlugin;
-use Spryker\Service\SalesOrderAmendmentExtension\Dependency\Plugin\OriginalSalesOrderItemGroupKeyExpanderPluginInterface;
+use Spryker\Service\PriceProductSalesOrderAmendmentExtension\Dependency\Plugin\OriginalSalesOrderItemPriceGroupKeyExpanderPluginInterface;
 
 /**
  * @method \Spryker\Service\ProductOffer\ProductOfferServiceFactory getFactory()
  */
-class ProductOfferOriginalSalesOrderItemGroupKeyExpanderPlugin extends AbstractPlugin implements OriginalSalesOrderItemGroupKeyExpanderPluginInterface
+class ProductOfferOriginalSalesOrderItemPriceGroupKeyExpanderPlugin extends AbstractPlugin implements OriginalSalesOrderItemPriceGroupKeyExpanderPluginInterface
 {
     /**
      * {@inheritDoc}
